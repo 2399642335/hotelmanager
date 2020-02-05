@@ -16,8 +16,15 @@ public class Checkins implements Serializable {
     private String cstate;
     private Timestamp checkinTime;
     private Timestamp leaveTime;
+    private Rooms rooms;
 
+    public Rooms getRooms() {
+        return rooms;
+    }
 
+    public void setRooms(Rooms rooms) {
+        this.rooms = rooms;
+    }
 
     public Integer getCid() {
         return cid;
